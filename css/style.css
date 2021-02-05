@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+html{scroll-behavior:smooth;}
+body{font-family: 'Old Standard TT', serif; font-weight:500; font-size:13px;line-height:24px;position:relative;color:#000;
+overflow-x:hidden;width:100%;background-color:#fff; -webkit-font-smoothing:antialiased;}
+ul,li{list-style:none;margin:0;padding:0;}
+a{text-decoration:none;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;transition:all 0.3s ease;}
+a,a:hover{text-decoration:none;outline:0; color:#6900A0;}
+a:hover{color:#000;outline:0;}
+img{-ms-interpolation-mode:bicubic; display:inline-block; height:auto; max-width:100%; vertical-align:middle;}
+:focus {outline:none !important;}
+p{margin-bottom:0;}
+html,body{margin:0; padding:0;}
+.valign-center{display:flex !important; align-items:center !important;}
+
+.header-shadow{box-shadow:1px 4px 5px 0px rgb(0, 0, 0, 0.10);
+-webkit-box-shadow:1px 4px 5px 0px rgb(0, 0, 0, 0.10);
+-moz-box-shadow: 1px 4px 5px 0px rgb(0, 0, 0, 0.10);}
+
+.logo-wrap{background-color:#040715; padding:10px}
+.search-field .search-icon{position:absolute; left:15px;top:12px;}
+.search-field .form-control{background-color:#2f2526; border:none; border-radius:2px; font-weight:600; font-size:14px; padding:10px 10px 10px 40px; width:300px;}
+.home-banner{background-image:url(../img/home-banner1.jpg);}
+.gl-banner{background-image:url(../img/gl-banner.jpg);}
+.career-banner{background-image:url(../img/career-banner.jpg);}
+.top-banner{height:500px; display:table; width:100%; background-size:cover; background-repeat:repeat; position:relative;
+background-position:center;}
+.shadow-box{box-shadow:0px -1px 5px 4px rgb(0 0 0 / 5%); -webkit-box-shadow:0px -1px 5px 4px rgb(0 0 0 / 5%);
+ -moz-box-shadow:0px -1px 5px 4px rgba(0,0,0,0.05);border-radius:5px; min-height:160px;}
+section{padding:40px 0;}
+.grey-bg{background-color:#F7F7F7; }
+.owl-next{background-image:url(../img/slider-next-arrow.svg)!important; width:44px; height:60px; float:right;}
+.owl-prev{background-image:url(../img/slider-prev-arrow.svg)!important; width:44px; height:60px;}
+h2{font-size:28px; font-weight:600;}
+h3{color:#fff; font-size:80px; font-weight:700;}
+p{font-size:15px; font-weight:600; letter-spacing:0.2px; font-family:'Raleway', sans-serif; line-height:30px}
+
+
+.tm span{display:block;}
+.promoter-name{ color:#6B0736; font-size: 16px; font-weight:600}
+.tn{border:1px solid #6B0736; border-radius:50%; width:130px; height:130px; text-align:center;}
+.tn img{border-radius:50%; margin-top:4px}
+.owl-nav button{position:absolute;top:50%; margin-top:-30px;} 
+.owl-nav button.owl-prev{left:0}
+.owl-nav button.owl-next{right:0;}
+.about{border-bottom:1px solid #D2D2D2;}
+.journey{font-weight:700; font-size:20px; position:relative; font-family:'Raleway', sans-serif;}
+.journey span{background-color:#fff; position:relative; z-index:9; display:inline-block; padding:0 15px;}
+.journey img{position:relative; z-index:9}
+.year{font-family:'Raleway', sans-serif; color:#6B0736; font-size:28px; font-weight:600;}
+.line{height:1px; background-color:#9D225C; top:50%; position:absolute; left:0; right:0;}
+.golden-locker{min-height:460px;}
+.golden-locker h4{font-size:20px; font-weight:700; line-height:26px;}
+.golden-locker p{font-weight:500; line-height:24px; font-size:14px; margin-top:8px;}
+.award-box{box-shadow:1px 4px 5px 0px rgb(0, 0, 0, 0.10);
+-webkit-box-shadow:1px 4px 5px 0px rgb(0, 0, 0, 0.10);
+-moz-box-shadow: 1px 4px 5px 0px rgb(0, 0, 0, 0.10); border-radius:5px;}
+.award-box h4{font-size:16px; color:#6B0736; font-weight:600; overflow:hidden; text-overflow:ellipsis; display:-webkit-box;
+-webkit-line-clamp:2; -webkit-box-orient:vertical;}
+.award-box p{font-size:12px; font-weight:500; padding-bottom:20px; line-height:20px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical;}
+.news{position:absolute; left:0; right:25px; bottom:5px;}
+.your-journey{max-width:570px; position:relative; margin-top:-10%; padding:50px; left:5%; z-index:9; background-color:#fff; width:100%;}
+.your-journey h4{color:#B92B2F; font-size:22px; font-weight:600;}
+.your-passion{box-shadow: -1px 5px 13px 0px rgba(0,0,0,0.15);-webkit-box-shadow: -1px 5px 13px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: -1px 5px 13px 0px rgba(0,0,0,0.15); border-radius:10px; background-color:#fff}
+.creative h3{position:absolute; bottom:40px; left:0; right:0; font-size:28px; text-align:center;}
+.n-detail{background-color:#fff; position:absolute; bottom:0; min-width:60%; border-radius:0 20px 0 0; padding:15px;}
+.post{display:block; font-size:16px; color:#6B0736; font-weight:600;}
+.your-passion .form-control{border:none; border-bottom:1px solid #B92B2F; border-radius:0; color:#000; font-weight:600; font-size:18px;}
+.form-control:focus{outline:none; box-shadow:none;}
+.static-label{width:200px; color:#B92B2F; font-size:18px; border-bottom: 1px solid #B92B2F;}
+.label2{width:30px !important;}
+.contact-wrapper{background-color:#6B0736; border-radius:5px; color:#fff; padding-right:50px;}
+.contact-heading{font-size:60px;}
+.contact-form{background-color:#fff; border-radius:5px;}
+.contact-form label{color:#000; font-family: 'Raleway', sans-serif; margin-bottom:0; font-size:16px;}
+.contact-form h4{color:#B92B2F; font-weight:700; text-align:center;}
+.riwaj-collection.bottom{bottom:50px;}
+.riwaj-collection.top{top:50px;}
+.home-banner{color:#fff; margin-top:40px;}
+.n-margin{margin-top:-40px;}
+.home-banner h3,.newsletter h2{font-size:22px;}
+.home-banner p{font-family:'Old Standard TT', serif;}
+.home-banner p.sm{font-size:12px;}
+.riwaz-necklace{background-color:#eceeef}
+.tj{font-size:24px;}
+.rc{font-weight:600; font-size:38px; line-height:60px;}
+.black-bg{background-color:#000}
+.newsletter .btn{position:absolute; right:0; top:0; border-radius:0 5px 5px 0px; background-color:#FDB564; border-color:#FDB564;}
+.our-team{max-width:440px}
+.about-carousel{padding:0 40px;}
+.navbar-light .navbar-nav .nav-link{text-transform:uppercase; color:#000; font-size:14px; padding:10px 20px;font-family: 'Raleway', sans-serif;}
+.navbar-light .navbar-nav .active>.nav-link{color:#ba2f33;}
+.form-group{margin-bottom:1.5rem;}
+.btn-primary,.btn-primary:hover, .btn-primary:active, .btn-primary:focus{background-color:#6B0736; border-color:#6B0736;
+ box-shadow:none; border-radius:30px; font-family: 'Raleway', sans-serif; font-weight:700;}
+.light-bg{background-color:#F9F7F8}
+.orange-bg{background-color:#FFE7C3}
+
+
+footer{background-color:#6B0736; color:#fff; padding-top:50px}
+footer a{color:#fff; font-weight:400;}
+.footer-menu-items li{padding:5px 0;}
+.mobile-footer-menu{padding-left:40px;}
+.footer-social-icon li{display:inline-block; margin-right:20px}
+.cp-text{background-color:#000; color:#fec17e; padding:5px 0;}
+.footer-heading{font-size:20px; font-weight:600;}
+
+
+
+
+
+@media (min-width: 992px){.container{max-width:1200px;}}
+@media (min-width: 1200px){.container{max-width:1600px}}
+@media (max-width:1200px){.footer-wrap .col-12{padding-left:15px;}}
+
+
+@media (max-width:1200px){
+.contact-heading{font-size:46px;}
+.contact-wrapper{padding-right:20px}
+.top-banner{height:400px;}
+h3{font-size:50px;}
+.your-journey{max-width:470px; padding:30px}
+.static-label{width:220px}
+.your-journey h4{font-size:20px}
+.award-box p{-webkit-line-clamp:2;}
+.award-box h4{-webkit-line-clamp:1;}
+.rc{font-size:24px;}
+.tj{font-size:18px;}
+
+}
+
+@media (max-width:1024px){
+.your-journey{max-width:400px; padding:20px}
+p{line-height:26px; font-size:14px;}
+.static-label{width:240px;}
+.top-banner{height:300px;}
+.golden-locker h4{font-size:18px}
+h2{font-size:24px;}
+}
+@media (max-width:991px){
+    .static-label{font-size:16px;}
+    .award-box p{-webkit-line-clamp:5;}
+.award-box h4{-webkit-line-clamp:2;}
+#owl-carousel1 .item{background-color:#000; text-align:center;}
+.home-banner h3, .newsletter h2{font-size:18px;}
+.search-field .form-control{width:100%;}
+
+}
+
+@media (max-width:767px){
+    .contact-form{margin-left:20px;}
+.top-banner{height:200px;}
+.contact-heading{font-size:30px;}
+p{font-size:14px; line-height:26px;}
+.footer-menu-items{display:none;}
+.news{left:25px}
+.award-box img{width:100%; border-radius:5px;}
+h3{font-size:32px;}
+h2{font-size:20px}
+.journey-images img{width:100%; margin-bottom:10px}
+.tj{font-size:16px;}
+.rc{font-size:22px; line-height:40px;}
+
+}
